@@ -862,7 +862,7 @@ input[type=text]:focus, textarea:focus {
 }
 
 .order {
-  background: url(/img/cta.png) no-repeat center center;
+  background: url(../img/cta.png) no-repeat center center;
   background-size: cover;
 }
 .order__content {
