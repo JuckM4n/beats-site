@@ -418,6 +418,9 @@ strong {
   border-color: transparent;
   color: #FFFFFF;
 }
+.button[type=reset]:hover {
+  background: transparent;
+}
 .button--size {
   width: 168px;
 }
@@ -588,6 +591,7 @@ input[type=text]:focus, textarea:focus {
   background-color: #E01F3D;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  margin-bottom: 70px;
 }
 .preview__btn:hover {
   background-color: #CA1B36;
@@ -601,6 +605,7 @@ input[type=text]:focus, textarea:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-bottom: 50px;
 }
 .preview__characteristic-item {
   display: -webkit-box;
@@ -618,7 +623,7 @@ input[type=text]:focus, textarea:focus {
 .preview__headphones {
   position: absolute;
   right: -0.5%;
-  top: 54%;
+  top: 44%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
@@ -981,4 +986,10 @@ input[type=text]:focus, textarea:focus {
   height: 12.5px;
   -webkit-transform: translate(-50% -50%) scale(1);
           transform: translate(-50% -50%) scale(1);
+}
+.order-form__submit .button {
+  color: #FFFFFF;
+  background-color: #E01F3D;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }

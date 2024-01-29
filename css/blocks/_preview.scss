@@ -39,6 +39,7 @@
     color: $white;
     background-color: $red;
     transition: 0.3s;
+    margin-bottom: 70px;
     
     &:hover{
       background-color: $crimson;
@@ -52,6 +53,7 @@
     
     &-list{
       display: flex;
+      margin-bottom: 50px;
     }
 
     &-item{
@@ -73,7 +75,7 @@
   &__headphones{
     position: absolute;
     right: -0.5%;
-    top: 54%;
+    top: 44%;
     transform: translateY(-50%);
   }
 }
