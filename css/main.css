@@ -396,11 +396,6 @@ strong {
   margin: 0 auto;
 }
 
-.order {
-  background: url(./../../img/cta.png) no-repeat center center;
-  background-size: cover;
-}
-
 .button {
   background-color: transparent;
   border: 2px solid #E01F3D;
@@ -866,6 +861,10 @@ input[type=text]:focus, textarea:focus {
      object-fit: cover;
 }
 
+.order {
+  background: url(/img/cta.png) no-repeat center center;
+  background-size: cover;
+}
 .order__content {
   position: relative;
   z-index: 20;
