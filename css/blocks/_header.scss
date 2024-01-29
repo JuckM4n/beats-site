@@ -1,0 +1,21 @@
+.header{
+  display: block;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 50%;
+  padding-top: 24px;
+  transform: translateX(-50%);
+  
+  &__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  &__links{
+    display: flex;
+    justify-content: flex-end;
+  }
+}

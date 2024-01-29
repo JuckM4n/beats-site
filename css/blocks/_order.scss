@@ -1,0 +1,108 @@
+.order{
+  &__content{
+    position: relative;
+    z-index: 20;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6px;
+  }
+  
+  &__title{
+    font-size: 48px;
+    font-weight: 700;
+    color: $white;
+    margin-bottom: 61px;
+    padding-top: 62px;
+  }
+
+  &-form{
+    display: flex;
+    justify-content: space-between;
+
+    &__col{
+      width: 49%;
+    }
+
+    &__row{
+      margin-bottom: 16px;
+      display: flex;
+
+      &--textarea{
+        margin-bottom: 36px;
+      }
+    }
+
+    &__block{
+      display: flex;
+      flex-direction: column;
+      margin-right: 28px;
+      width: 100%;
+    }
+
+    &__name{
+      margin-bottom: 6px;
+      font-size: 16px;
+      font-weight: 400;
+      color: $white;
+    }
+
+    &__input{
+      font-size: 14px;
+      padding: 18px 12px;
+      width: 100%;
+      transition: 0.3;
+
+      &--textarea{
+        height: 152px;
+        min-height: 152px;
+        resize: none;
+      }
+    }
+
+    &__buttons{
+      padding-top: 7px;
+    }
+
+    &__buttons &__row{
+      margin-bottom: 8px;
+    }
+    
+    &__radio{
+      display: flex;
+      position: relative;
+      cursor: pointer;
+      margin-right: 24px;
+
+      &-custom{
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background: $white;
+        position: relative;
+
+        &::after{
+          content: "";
+          display: block;
+          position: absolute;
+          width: 0;
+          height: 0;
+          border-radius: 50%;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50% -50%);
+          transition: all 0.3s, height 0.3s;
+        }
+      }
+
+      &:checked + &-custom::after{
+        background-color: $red;
+        width: 12.5px;
+        height: 12.5px;
+        transform: translate(-50% -50%) scale(1);
+      }
+    }
+  }
+}

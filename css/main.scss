@@ -1,0 +1,19 @@
+$red: #E01F3D;
+$black: #292929;
+$crimson: #CA1B36;
+$grey: #666666;
+$white: #FFFFFF;
+
+@import "./layout/normalize";
+@import "./layout/base";
+
+@import "./blocks/container";
+
+@import "./blocks/header";
+@import "./blocks/menu";
+@import "./blocks/contacts";
+
+@import "./blocks/preview";
+@import "./blocks/about";
+@import "./blocks/review";
+@import "./blocks/order";
