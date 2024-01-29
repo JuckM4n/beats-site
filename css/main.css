@@ -941,8 +941,8 @@ input[type=text]:focus, textarea:focus {
   transition: 0.3;
 }
 .order-form__input--textarea {
-  height: 152px;
-  min-height: 152px;
+  height: 156px;
+  min-height: 156px;
   resize: none;
 }
 .order-form__buttons {
