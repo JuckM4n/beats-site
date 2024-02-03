@@ -1,0 +1,37 @@
+.interactive-avatar {
+  width                : 82px;
+  height               : 82px;
+  border               : 4px solid transparent;
+  border-radius        : 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius   : 50%;
+  -ms-border-radius    : 50%;
+  -o-border-radius     : 50%;
+  overflow             : hidden;
+  position             : relative;
+  margin-right: 6px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &--active {
+    border-color: $red;
+  }
+}
+
+.interactive-avatar__switcher-link {
+  position: absolute;
+  top     : 0;
+  left    : 0;
+  bottom  : 0;
+  right   : 0;
+  display : block;
+}
+
+.interactive-avatar__img {
+  display   : block;
+  width     : 100%;
+  height    : 100%;
+  object-fit: cover;
+}

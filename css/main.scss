@@ -1,19 +1,39 @@
-$red: #E01F3D;
-$black: #292929;
-$crimson: #CA1B36;
-$grey: #666666;
-$white: #FFFFFF;
+$containerWidth: 940px;
+$baseFontSize  : 16px;
 
-@import "./layout/normalize";
-@import "./layout/base";
+//colors
+$red       : #E01F3D;
+$black     : #292929;
+$crimson   : #CA1B36;
+$grey  : #666666;
+$white     : #FFFFFF;
+$whitesmoke: #f5f5f5;
 
-@import "./blocks/container";
+//z-indexes
+$z-fixed-menu: 100;
 
+//normalize
+@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
+
+//setups
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Play:wght@400;700&display=swap');
+@import "./layout";
+
+//components
+@import "./blocks/hero";
 @import "./blocks/header";
-@import "./blocks/menu";
-@import "./blocks/contacts";
-
-@import "./blocks/preview";
-@import "./blocks/about";
-@import "./blocks/review";
-@import "./blocks/order";
+@import "./blocks/features";
+@import "./blocks/feature";
+@import "./blocks/btn";
+@import "./blocks/section";
+@import "./blocks/headline";
+@import "./blocks/benefits";
+@import "./blocks/benefits--section";
+@import "./blocks/benefit";
+@import "./blocks/reviews";
+@import "./blocks/reviews--section";
+@import "./blocks/interactive-avatar";
+@import "./blocks/form";
+@import "./blocks/order--section";
+@import "./blocks/radio";
+@import "./blocks/fixed-menu";

@@ -1,0 +1,45 @@
+.benefit {
+  text-align: center;
+}
+
+.benefit__image{
+  margin-bottom: 24px;
+  
+  &-wrapper {
+    display              : inline-block;
+    width                : 128px;
+    height               : 128px;
+    position             : relative;
+    background           : #F2F5F4;
+    border-radius        : 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius   : 50%;
+    -ms-border-radius    : 50%;
+    -o-border-radius     : 50%;
+    overflow             : hidden;
+  }
+}
+
+.benefit__icon {
+  width            : 60px;
+  height           : 60px;
+  position         : absolute;
+  top              : 50%;
+  left             : 50%;
+  transform        : translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform   : translate(-50%, -50%);
+  -ms-transform    : translate(-50%, -50%);
+  -o-transform     : translate(-50%, -50%);
+}
+
+.benefit__title {
+  font-size  : 24px;
+  font-weight: 700;
+  color      : $black;
+  margin-bottom: 7px;
+}
+
+.benefit__desc {
+  padding: 0 6%;
+}
