@@ -86,7 +86,7 @@ img {
   position: absolute;
   bottom: -28px;
   right: 6.7%;
-  content: url(./../../img/Rectangle\ 14.svg);
+  content: url(./../img/Rectangle\ 14.svg);
 }
 
 .hero__container {
@@ -290,7 +290,7 @@ img {
   position: relative;
 }
 .benefits__item::before {
-  content: url("../../img/about-shape.png");
+  content: url("./../img/about-shape.png");
   position: absolute;
   top: 30px;
   right: 0;

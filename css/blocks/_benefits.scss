@@ -8,7 +8,7 @@
   position: relative;
 
   &::before {
-    content: url("../../img/about-shape.png");
+    content: url("./../img/about-shape.png");
     position: absolute;
     top: 30px;
     right: 0;
