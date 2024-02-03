@@ -555,7 +555,7 @@ img {
 }
 
 .order--section {
-  background: url(./.././../../../img/cta.png) no-repeat;
+  background: url(./../.././../../../img/cta.png) no-repeat;
   background-size: cover;
 }
 
