@@ -162,7 +162,7 @@ img {
     content: "";
     width: 20.1875rem;
     height: 20.1875rem;
-    background: url(./img/headphones.png) center center/contain no-repeat;
+    background: url(./../img/headphones.png) center center/contain no-repeat;
     margin-bottom: 3.25rem;
   }
 }
