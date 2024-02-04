@@ -3,8 +3,13 @@
 
   &::before {
     position: absolute;
-    bottom  : -24px;
+    bottom  : rem(-24px);
     left   : 3.1%;
     content : url(./../img/Vector.svg);
+
+    @include tablets {
+      bottom  : rem(-22px);
+      left: 5.7%;
+    }
   }
 }

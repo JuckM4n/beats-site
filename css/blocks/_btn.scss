@@ -1,18 +1,18 @@
 .btn {
-  font-size            : 16px;
+  font-size            : rem(16px);
   font-weight          : 700;
-  padding              : 18px 35px;
+  padding              : rem(18px) rem(35px);
   text-transform       : uppercase;
-  border-radius        : 100px;
+  border-radius        : rem(100px);
   border-color         : transparent;
   color                : $white;
   line-height          : 1;
-  width                : 163px;
-  height               : 54px;
-  -webkit-border-radius: 100px;
-  -moz-border-radius   : 100px;
-  -ms-border-radius    : 100px;
-  -o-border-radius     : 100px;
+  width                : rem(163px);
+  height               : rem(54px);
+  -webkit-border-radius: rem(100px);
+  -moz-border-radius   : rem(100px);
+  -ms-border-radius    : rem(100px);
+  -o-border-radius     : rem(100px);
   background           : $red;
   text-decoration      : none;
   border               : none;

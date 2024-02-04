@@ -1,5 +1,9 @@
 .benefits {
   display: flex;
+
+  @include phones {
+    flex-direction: column;
+  }
 }
 
 .benefits__item {
@@ -7,16 +11,29 @@
   padding: 0 3%;
   position: relative;
 
+  @include tablets {
+    padding: 0;
+    margin-bottom: rem(19px);
+  }
+
+  @include phones {
+    padding: 0;
+  }
+
   &::before {
-    content: url("./../img/about-shape.png");
+    content: url("./../img/about-shape.svg");
     position: absolute;
-    top: 30px;
+    top: rem(30px);
     right: 0;
     transform: translateX(50%);
     -webkit-transform: translateX(50%);
     -moz-transform: translateX(50%);
     -ms-transform: translateX(50%);
     -o-transform: translateX(50%);
+
+    @include tablets {
+      display: none;
+    }
 }
 
   &:first-child {

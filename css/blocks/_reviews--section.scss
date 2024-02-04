@@ -3,7 +3,7 @@
 
   &::before {
     position: absolute;
-    bottom  : -32px;
+    bottom  : rem(-32px);
     left    : 4.2%;
     content : url(./../img/Ellipse.svg);
   }

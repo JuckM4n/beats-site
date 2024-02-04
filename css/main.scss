@@ -1,6 +1,10 @@
 $containerWidth: 940px;
 $baseFontSize  : 16px;
 
+//breakpoints
+$tablets: 768px;
+$phones: 480px;
+
 //colors
 $red       : #E01F3D;
 $black     : #292929;
@@ -12,6 +16,8 @@ $whitesmoke: #f5f5f5;
 //z-indexes
 $z-fixed-menu: 100;
 
+@import "./media";
+
 //normalize
 @import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
 
@@ -21,7 +27,10 @@ $z-fixed-menu: 100;
 
 //components
 @import "./blocks/hero";
+@import "./blocks/phone-number";
 @import "./blocks/header";
+@import "./blocks/menu";
+@import "./blocks/hamburger";
 @import "./blocks/features";
 @import "./blocks/feature";
 @import "./blocks/btn";
@@ -37,3 +46,7 @@ $z-fixed-menu: 100;
 @import "./blocks/order--section";
 @import "./blocks/radio";
 @import "./blocks/fixed-menu";
+@import "./blocks/map";
+@import "./blocks/socials";
+@import "./blocks/contacts";
+@import "./blocks/footer";

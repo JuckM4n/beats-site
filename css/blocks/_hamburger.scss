@@ -1,0 +1,22 @@
+.hamburger {
+  width: rem(26px);
+  flex-direction: column;
+  justify-content: space-between;
+  display: none;
+
+  @include tablets {
+    display: inline-flex;
+  }
+}
+
+.hamburger__plant {
+  display: block;
+  margin-bottom: rem(5px);
+  background: $black;
+  height: rem(4px);
+  border-radius: rem(10px);
+  -webkit-border-radius: rem(10px);
+  -moz-border-radius: rem(10px);
+  -ms-border-radius: rem(10px);
+  -o-border-radius: rem(10px);
+}

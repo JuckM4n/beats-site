@@ -1,0 +1,22 @@
+.socials {
+  display: flex;
+}
+
+.socials__item {
+  margin-right: rem(10px);
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.socials__link {
+  display     : inline-flex;
+  width       : rem(30px);
+  height      : rem(30px);
+  fill: #B3B3B3;
+
+  &:hover {
+    fill: $black
+  }
+}
