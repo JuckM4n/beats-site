@@ -291,6 +291,9 @@ img {
       -ms-flex-pack: justify;
           justify-content: space-between;
   display: none;
+  position: fixed;
+  top: 3%;
+  right: 2%;
 }
 @media screen and (max-width: 768px) {
   .hamburger {
@@ -310,6 +313,9 @@ img {
   -moz-border-radius: 0.625rem;
   -ms-border-radius: 0.625rem;
   -o-border-radius: 0.625rem;
+}
+.hamburger__plant:last-child {
+  margin-bottom: 0;
 }
 
 .features {
@@ -456,6 +462,9 @@ img {
 @media screen and (max-width: 480px) {
   .benefits__item {
     padding: 0;
+  }
+  .benefits__item:last-child {
+    margin-bottom: 0;
   }
 }
 .benefits__item::before {

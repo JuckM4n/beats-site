@@ -3,6 +3,9 @@
   flex-direction: column;
   justify-content: space-between;
   display: none;
+  position: fixed;
+  top: 3%;
+  right: 2%;
 
   @include tablets {
     display: inline-flex;
@@ -19,4 +22,8 @@
   -moz-border-radius: rem(10px);
   -ms-border-radius: rem(10px);
   -o-border-radius: rem(10px);
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
