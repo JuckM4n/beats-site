@@ -22,6 +22,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   position               : relative;
   color                  : $grey;
+
+  &--active-menu {
+    overflow: hidden;
+  }
 }
 
 .wrapper {

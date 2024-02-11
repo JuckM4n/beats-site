@@ -21,4 +21,8 @@
   text-align    : center;
   text-transform: uppercase;
   color         : $black;
+
+  @include phones {
+    font-size: 32px;
+  }
 }

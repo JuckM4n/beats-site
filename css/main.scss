@@ -30,7 +30,7 @@ $z-fixed-menu: 100;
 @import "./blocks/phone-number";
 @import "./blocks/header";
 @import "./blocks/menu";
-@import "./blocks/hamburger";
+@import "./blocks/burger";
 @import "./blocks/features";
 @import "./blocks/feature";
 @import "./blocks/btn";
@@ -39,6 +39,12 @@ $z-fixed-menu: 100;
 @import "./blocks/benefits";
 @import "./blocks/benefits--section";
 @import "./blocks/benefit";
+@import "./blocks/slider--section";
+@import "./blocks/slider";
+@import "./blocks/overlay";
+
+
+
 @import "./blocks/reviews";
 @import "./blocks/reviews--section";
 @import "./blocks/interactive-avatar";

@@ -1,0 +1,20 @@
+.slider--section {
+  background-color: #f5f5f5;
+  position        : relative;
+
+  &::after {
+    position: absolute;
+    bottom  : rem(-28px);
+    right   : 6.4%;
+    content : url(./../../img/Rectangle\ 13.svg);
+
+    @include tablets {
+      right   : 6.4%;
+    }
+
+    @include phones {
+      bottom  : rem(-27px);
+      right   : 11.5%;
+    }
+  }
+}

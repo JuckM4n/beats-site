@@ -6,10 +6,16 @@
     bottom  : rem(-24px);
     left   : 3.1%;
     content : url(./../img/Vector.svg);
+    z-index: 10;
 
     @include tablets {
       bottom  : rem(-22px);
       left: 5.7%;
+    }
+
+    @include phones {
+      bottom  : rem(-29px);
+      left: 9.7%;
     }
   }
 }
