@@ -866,7 +866,7 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: url(./../../img/arrow.svg) no-repeat;
+  background: url(./img/arrow.svg) no-repeat;
   top: 50%;
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
