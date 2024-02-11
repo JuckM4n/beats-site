@@ -663,8 +663,8 @@ img {
   }
 }
 .slider__image {
-  width: 32px;
-  height: 32px;
+  width: 452px;
+  height: 452px;
   margin-bottom: 8px;
 }
 @media screen and (max-width: 768px) {
