@@ -628,7 +628,7 @@ img {
   position: absolute;
   bottom: -1.75rem;
   right: 6.4%;
-  content: url(./../../img/Rectangle\ 13.svg);
+  content: url(./../img/Rectangle\ 13.svg);
 }
 @media screen and (max-width: 768px) {
   .slider--section::after {
@@ -870,7 +870,7 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: url(./img/arrow.svg) no-repeat;
+  background: url(./../img/arrow.svg) no-repeat;
   top: 50%;
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
