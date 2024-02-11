@@ -42,15 +42,11 @@
   -ms-border-radius    : 4px;
   -o-border-radius     : 4px;
   position             : relative;
-  margin-bottom        : 25px;
+  margin-bottom        : rem(25px);
 
   &:hover {
     background-color: #6E6E6E;
   }
-
-  // &:hover+.slider-gear__option{
-  //   opacity   : 1;
-  // }
 
   @include tablets {
     display: none;
@@ -64,8 +60,8 @@
 
 .slider-gear__icon {
   position         : absolute;
-  width            : 42px;
-  height           : 42px;
+  width            : rem(42px);
+  height           : rem(42px);
   top              : 50%;
   left             : 50%;
   transform        : translate(-50%, -50%);
@@ -85,8 +81,8 @@
   -moz-border-radius   : 4px;
   -ms-border-radius    : 4px;
   -o-border-radius     : 4px;
-  padding              : 18px 14px;
-  min-width            : 294px;
+  padding              : rem(23px) rem(26px);
+  min-width            : rem(274px);
   visibility           : hidden;
   opacity              : 0;
   transition           : opacity 0.3s, visibility 0.3s;
@@ -97,17 +93,24 @@
 
 
   &-item {
-    display        : flex;
-    justify-content: space-between
+    display      : flex;
+    margin-bottom: rem(21px);
+    align-items  : center;
   }
 
   &-text {
-    margin-right: 51px;
+    margin-right: rem(51px);
 
-    &-icon {
-      width: 32px;
-      height: 32px;
-    }
+  }
+
+  &-icon {
+    width       : 32px;
+    height      : 32px;
+    margin-right: rem(12px);
+  }
+
+  &-value {
+    margin-left: auto;
   }
 }
 
@@ -139,7 +142,7 @@
   }
 
   @include phones {
-    padding: 0 28px;
+    padding: 0 rem(28px);
   }
 }
 
@@ -215,10 +218,10 @@
   }
 
   &--left {
-    left: 17%;
+    left: -5%;
 
     @include tablets {
-      left: 19%;
+      left: 15%;
     }
 
     @include phones {
@@ -227,13 +230,17 @@
   }
 
   &--right {
-    right            : 17%;
+    right            : 1.4%;
     transform        : rotate(180deg) translateY(50%);
     -webkit-transform: rotate(180deg) translateY(50%);
     -moz-transform   : rotate(180deg) translateY(50%);
     -ms-transform    : rotate(180deg) translateY(50%);
     -o-transform     : rotate(180deg) translateY(50%);
-  
+
+    @include tablets {
+      right: 22.6%;
+    }
+
     @include phones {
       right: 0%;
     }

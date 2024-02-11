@@ -696,7 +696,7 @@ img {
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
   position: relative;
-  margin-bottom: 25px;
+  margin-bottom: 1.5625rem;
 }
 .slider__btn:hover {
   background-color: #6E6E6E;
@@ -714,8 +714,8 @@ img {
 
 .slider-gear__icon {
   position: absolute;
-  width: 42px;
-  height: 42px;
+  width: 2.625rem;
+  height: 2.625rem;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -735,8 +735,8 @@ img {
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
-  padding: 18px 14px;
-  min-width: 294px;
+  padding: 1.4375rem 1.625rem;
+  min-width: 17.125rem;
   visibility: hidden;
   opacity: 0;
   transition: opacity 0.3s, visibility 0.3s;
@@ -749,16 +749,21 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  margin-bottom: 1.3125rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .slider-gear__option-text {
-  margin-right: 51px;
+  margin-right: 3.1875rem;
 }
-.slider-gear__option-text-icon {
+.slider-gear__option-icon {
   width: 32px;
   height: 32px;
+  margin-right: 0.75rem;
+}
+.slider-gear__option-value {
+  margin-left: auto;
 }
 
 .slider__title {
@@ -795,7 +800,7 @@ img {
 }
 @media screen and (max-width: 480px) {
   .slider__subtitle {
-    padding: 0 28px;
+    padding: 0 1.75rem;
   }
 }
 
@@ -887,11 +892,11 @@ img {
   }
 }
 .slider__arrow--left {
-  left: 17%;
+  left: -5%;
 }
 @media screen and (max-width: 768px) {
   .slider__arrow--left {
-    left: 19%;
+    left: 15%;
   }
 }
 @media screen and (max-width: 480px) {
@@ -900,12 +905,17 @@ img {
   }
 }
 .slider__arrow--right {
-  right: 17%;
+  right: 1.4%;
   transform: rotate(180deg) translateY(50%);
   -webkit-transform: rotate(180deg) translateY(50%);
   -moz-transform: rotate(180deg) translateY(50%);
   -ms-transform: rotate(180deg) translateY(50%);
   -o-transform: rotate(180deg) translateY(50%);
+}
+@media screen and (max-width: 768px) {
+  .slider__arrow--right {
+    right: 22.6%;
+  }
 }
 @media screen and (max-width: 480px) {
   .slider__arrow--right {
