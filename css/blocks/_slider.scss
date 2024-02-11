@@ -96,6 +96,10 @@
     display      : flex;
     margin-bottom: rem(21px);
     align-items  : center;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
 
   &-text {
@@ -218,31 +222,31 @@
   }
 
   &--left {
-    left: -5%;
+    left: 0;
 
-    @include tablets {
-      left: 15%;
-    }
+    // @include tablets {
+    //   left: 15%;
+    // }
 
-    @include phones {
-      left: 0%;
-    }
+    // @include phones {
+    //   left: 0%;
+    // }
   }
 
   &--right {
-    right            : 1.4%;
+    right            : 0;
     transform        : rotate(180deg) translateY(50%);
     -webkit-transform: rotate(180deg) translateY(50%);
     -moz-transform   : rotate(180deg) translateY(50%);
     -ms-transform    : rotate(180deg) translateY(50%);
     -o-transform     : rotate(180deg) translateY(50%);
 
-    @include tablets {
-      right: 22.6%;
-    }
+    // @include tablets {
+    //   right: 22.6%;
+    // }
 
-    @include phones {
-      right: 0%;
-    }
+    // @include phones {
+    //   right: 0%;
+    // }
   }
 }
