@@ -756,6 +756,10 @@ img {
 .slider-gear__option-text {
   margin-right: 51px;
 }
+.slider-gear__option-text-icon {
+  width: 32px;
+  height: 32px;
+}
 
 .slider__title {
   display: -webkit-inline-box;
