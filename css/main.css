@@ -1319,6 +1319,9 @@ img {
 .fixed-menu__item--active .fixed-menu__link {
   border-color: #E01F3D;
 }
+.fixed-menu__item--active .fixed-menu__link::before {
+  background: #E01F3D;
+}
 
 .fixed-menu__link {
   width: 1.125rem;
@@ -1342,7 +1345,7 @@ img {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  background: #E01F3D;
+  background: #292929;
   position: absolute;
   top: 50%;
   left: 50%;
