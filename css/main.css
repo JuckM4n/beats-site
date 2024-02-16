@@ -895,7 +895,7 @@ img {
   }
 }
 .slider__arrow--left {
-  left: 0;
+  left: -2.875rem;
 }
 .slider__arrow--right {
   right: 0;
