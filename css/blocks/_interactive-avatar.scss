@@ -11,11 +11,15 @@
   position             : relative;
   margin-right: rem(6px);
 
+  &:hover {
+    border-color: $red;
+  }
+
   &:last-child {
     margin-right: 0;
   }
 
-  &--active {
+  &.active {
     border-color: $red;
   }
 }
@@ -27,6 +31,7 @@
   bottom  : 0;
   right   : 0;
   display : block;
+  cursor: pointer;
 }
 
 .interactive-avatar__img {

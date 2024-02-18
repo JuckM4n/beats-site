@@ -216,6 +216,7 @@
   width            : 16px;
   height           : 30px;
   border           : 0;
+  cursor           : pointer;
 
   @include tablets {
     top: 26%;
@@ -223,6 +224,10 @@
 
   &--left {
     left: rem(-46px);
+
+    @include tablets {
+      left: 0;
+    }
   }
 
   &--right {

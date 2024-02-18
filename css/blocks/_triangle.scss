@@ -1,0 +1,27 @@
+.triangle {
+  position: relative;
+
+  &::before {
+    border-top        : rem(5.5px) solid $red;
+    border-left       : rem(4.5px) solid transparent;
+    border-right      : rem(4.5px) solid transparent;
+    border-bottom     : 0 solid transparent;
+    transition        : 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition   : 0.3s;
+    -ms-transition    : 0.3s;
+    -o-transition     : 0.3s;
+    transform         : rotate(0deg);
+    -webkit-transform : rotate(0deg);
+    -moz-transform    : rotate(0deg);
+    -ms-transform     : rotate(0deg);
+    -o-transform      : rotate(0deg);
+  }
+
+  &::after {
+    border-bottom: rem(5.5px) solid $red;
+    border-left  : rem(4.5px) solid transparent;
+    border-right : rem(4.5px) solid transparent;
+    border-top   : 0 solid transparent;
+  }
+}

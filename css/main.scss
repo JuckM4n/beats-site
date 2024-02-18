@@ -19,7 +19,7 @@ $z-fixed-menu: 100;
 @import "./media";
 
 //normalize
-@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
 
 //setups
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Play:wght@400;700&display=swap');
@@ -43,7 +43,10 @@ $z-fixed-menu: 100;
 @import "./blocks/slider";
 @import "./blocks/overlay";
 
-
+@import "./blocks/team";
+@import "./blocks/team--version--desktop";
+@import "./blocks/team--version--mobile";
+@import "./blocks/triangle";
 
 @import "./blocks/reviews";
 @import "./blocks/reviews--section";

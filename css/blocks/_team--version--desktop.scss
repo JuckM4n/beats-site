@@ -1,0 +1,12 @@
+.team--version--desktop {
+  position: absolute;
+  top: 100%;
+  display: flex;
+
+  @include tablets {
+    display: none;
+    opacity: 0;
+  }
+}
+
+

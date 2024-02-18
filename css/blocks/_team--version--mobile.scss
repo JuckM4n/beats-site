@@ -1,0 +1,14 @@
+.team--version--mobile {
+  display: none;
+
+  @include tablets {
+    display: flex;
+    opacity: 1;
+  }
+
+  &>.team__item {
+    @include tablets {
+      margin-bottom: 16px;
+    }
+  }
+}
