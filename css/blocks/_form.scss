@@ -40,13 +40,17 @@
 
 .form__input {
   width                : 100%;
-  border               : solid rem(10px) transparent;
+  border               : solid rem(3px) transparent;
   padding              : rem(12px) rem(18px);
   border-radius        : rem(5px);
   -webkit-border-radius: rem(5px);
   -moz-border-radius   : rem(5px);
   -ms-border-radius    : rem(5px);
   -o-border-radius     : rem(5px);
+
+  &.input-error {
+    border-color: $red;
+  }
 
   @include tablets {
     border               : solid rem(3px) transparent;
