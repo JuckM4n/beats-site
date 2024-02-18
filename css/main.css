@@ -977,6 +977,12 @@ img {
   margin-right: 1.25rem;
   position: relative;
 }
+.team__item.active .triangle::before {
+  display: none;
+}
+.team__item.active .triangle::after {
+  display: block;
+}
 @media screen and (max-width: 768px) {
   .team__item {
     margin-right: 0;
