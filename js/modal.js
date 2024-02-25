@@ -45,7 +45,7 @@ $(".form").submit(e => {
       content.text(message);
     });
     request.fail(data => {
-      const message = data.responseJSON.message;
+      const message = "Произошла ошибка";
       content.text(message);
       modal.addClass("error-modal");
     });
@@ -62,11 +62,14 @@ $(".form").submit(e => {
         }
       );
     });
-  }
+  }document.getElementById("form").reset();
 });
+
 
 $(".app-submit-btn").click(e => {
   e.preventDefault();
 
   Fancybox.close();
-})
+});
+
+document.getElementById("form").reset();

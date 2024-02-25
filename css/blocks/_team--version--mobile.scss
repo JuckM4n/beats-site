@@ -9,6 +9,10 @@
   &>.team__item {
     @include tablets {
       margin-bottom: 16px;
+      
+      &:last-child {
+        margin-bottom: 0;
+      }
     }
   }
 }

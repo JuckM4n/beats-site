@@ -3,60 +3,24 @@ $baseFontSize  : 16px;
 
 //breakpoints
 $tablets: 768px;
-$phones: 480px;
+$phones : 480px;
 
 //colors
 $red       : #E01F3D;
 $black     : #292929;
 $crimson   : #CA1B36;
-$grey  : #666666;
+$grey      : #666666;
 $white     : #FFFFFF;
 $whitesmoke: #f5f5f5;
 
 //z-indexes
 $z-fixed-menu: 100;
 
-@import "./media";
-
-//normalize
-@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
-
 //setups
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Play:wght@400;700&display=swap');
-@import "./layout";
+@import "./media";
+
 
 //components
-@import "./blocks/hero";
-@import "./blocks/phone-number";
-@import "./blocks/header";
-@import "./blocks/menu";
-@import "./blocks/burger";
-@import "./blocks/features";
-@import "./blocks/feature";
-@import "./blocks/btn";
-@import "./blocks/section";
-@import "./blocks/headline";
-@import "./blocks/benefits";
-@import "./blocks/benefits--section";
-@import "./blocks/benefit";
-@import "./blocks/slider--section";
-@import "./blocks/slider";
-@import "./blocks/overlay";
-
-@import "./blocks/team";
-@import "./blocks/team--version--desktop";
-@import "./blocks/team--version--mobile";
-@import "./blocks/triangle";
-
-@import "./blocks/reviews";
-@import "./blocks/reviews--section";
-@import "./blocks/interactive-avatar";
-@import "./blocks/form";
-@import "./blocks/modal";
-@import "./blocks/order--section";
-@import "./blocks/radio";
-@import "./blocks/fixed-menu";
-@import "./blocks/map";
-@import "./blocks/socials";
-@import "./blocks/contacts";
-@import "./blocks/footer";
+@import "./layout";
+@import "./blocks/*.scss";
