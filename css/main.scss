@@ -30,7 +30,6 @@ $z-fixed-menu: 100;
 @import "./blocks/burger";
 @import "./blocks/contacts";
 @import "./blocks/features";
-@import "./blocks/features--section";
 @import "./blocks/feature";
 @import "./blocks/fixed-menu";
 @import "./blocks/footer";
@@ -58,4 +57,4 @@ $z-fixed-menu: 100;
 @import "./blocks/triangle";
 
 
-@import "./blocks/*.scss";
+// @import "./blocks/*.scss";
