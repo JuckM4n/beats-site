@@ -634,7 +634,7 @@ img {
   position: absolute;
   bottom: -1.75rem;
   right: 6.4%;
-  content: url(./../img/Rectangle\ 13.svg);
+  content: url(./../img/Rectangle13.svg);
 }
 @media screen and (max-width: 768px) {
   .slider--section::after {
