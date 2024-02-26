@@ -16,7 +16,7 @@ const init = () => {
   const myCollection = new ymaps.GeoObjectCollection({}, {
     draggable: false,
     iconLayout: 'default#image',
-    iconImageHref: "/img/marker.svg",
+    iconImageHref: "./img/marker.svg",
     iconImageSize: [44, 54],
     iconImageOffset: [-3, -42]
   });
