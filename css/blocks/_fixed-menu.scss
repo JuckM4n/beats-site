@@ -9,6 +9,20 @@
   }
 }
 
+.fixed-menu--black {
+  .fixed-menu__item {  
+    &--active {
+      .fixed-menu__link {
+        border-color: $black;
+  
+        &::before {
+          background: $black;
+        }
+      }
+    }
+  }
+}
+
 .fixed-menu__item {
   margin-bottom: rem(5px);
 

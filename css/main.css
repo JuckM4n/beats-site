@@ -33,8 +33,21 @@ body--active-menu {
 .wrapper {
   position: relative;
   width: 100%;
-  min-height: 100%;
+  height: 100%;
   overflow: hidden;
+}
+
+.maincontent {
+  height: 100%;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+  -webkit-transition: transform 1s;
+  -moz-transition: transform 1s;
+  -ms-transition: transform 1s;
+  -o-transition: transform 1s;
+  will-change: transform;
 }
 
 .container {
@@ -401,6 +414,13 @@ img {
   }
 }
 
+.fixed-menu--black .fixed-menu__item--active .fixed-menu__link {
+  border-color: #292929;
+}
+.fixed-menu--black .fixed-menu__item--active .fixed-menu__link::before {
+  background: #292929;
+}
+
 .fixed-menu__item {
   margin-bottom: 0.3125rem;
 }
@@ -634,7 +654,7 @@ img {
 
 .hero {
   background-color: #f5f5f5;
-  height: 100vh;
+  height: 100%;
   min-height: 40.625rem;
   color: #292929;
   position: relative;
@@ -1176,7 +1196,7 @@ img {
 }
 
 .section {
-  height: 100vh;
+  height: 100%;
   min-height: 40.625rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1758,6 +1778,10 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-orient: initial;
+  -webkit-box-direction: initial;
+      -ms-flex-direction: initial;
+          flex-direction: initial;
 }
 
 .player__container {
