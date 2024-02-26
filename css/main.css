@@ -996,7 +996,7 @@ img {
   -o-border-radius: 0;
 }
 .radio--checkbox .radio__visible::before {
-  background: url("../../img/checkmark.svg") center center no-repeat;
+  background: url("./../../img/checkmark.svg") center center no-repeat;
 }
 
 .radio__elem {
