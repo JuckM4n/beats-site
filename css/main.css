@@ -1534,7 +1534,6 @@ img {
 }
 
 .team--version--desktop {
-  top: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1579,6 +1578,9 @@ img {
 }
 .team__item.active .triangle::after {
   display: block;
+}
+.team__item:last-child {
+  margin-right: 0;
 }
 @media screen and (max-width: 768px) {
   .team__item {
