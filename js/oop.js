@@ -98,7 +98,7 @@ $(window).on("wheel", e => {
 $(window).on("keydown", e => {
 
   const tagName = e.target.tagName.toLowerCase();
-  const userTypingInInputs = tagname === "input" || tagName === "textarea";
+  const userTypingInInputs = tagName === "input" || tagName === "textarea";
 
   if (userTypingInInputs) return;
   switch (e.keyCode) {
