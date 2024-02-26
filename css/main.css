@@ -1812,5 +1812,6 @@ img {
   position: absolute;
   bottom: -32px;
   right: 8.6%;
-  content: url(./../img/polygon2.svg);
+  content: url(./../img/Polygon2.svg);
+  z-index: 1000;
 }
