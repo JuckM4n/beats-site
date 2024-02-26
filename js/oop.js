@@ -121,8 +121,6 @@ $("[data-scroll-to").click(e => {
   const reqSection = $(`[data-section-id="${target}"]`);
 
   performTransition(reqSection.index());
-
-  console.log(reqSection.index());
 });
 if (isMobile) {
   //https://github.com/mattbryson/TouchSwipe-Jquery-Plugin
