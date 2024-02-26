@@ -1673,6 +1673,80 @@ img {
   border-top: 0 solid transparent;
 }
 
+.products-menu-section__title {
+  color: #FFFFFF;
+  padding-top: 115px;
+  padding-left: 84px;
+  text-align: left;
+}
+.products-menu__list {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.products-menu__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+.products-menu__title {
+  position: relative;
+  width: 102px;
+  height: 100vh;
+}
+.products-menu__title--gray {
+  background: #999999;
+}
+.products-menu__title--black {
+  background: #151515;
+}
+.products-menu__title--red {
+  background: #E01F3C;
+}
+.products-menu__text {
+  position: absolute;
+  display: inline-block;
+  left: 50%;
+  bottom: -36px;
+  white-space: nowrap;
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  font-size: 36px;
+  font-weight: 700;
+  transform: rotate(-90deg) translateY(-50%);
+  -webkit-transform: rotate(-90deg) translateY(-50%);
+  -moz-transform: rotate(-90deg) translateY(-50%);
+  -ms-transform: rotate(-90deg) translateY(-50%);
+  -o-transform: rotate(-90deg) translateY(-50%);
+  margin-bottom: 24px;
+}
+.products-menu__content {
+  background: rgba(51, 53, 55, 0.8980392157);
+  width: 0;
+  position: relative;
+  overflow: hidden;
+  transition: width 0.7s;
+  -webkit-transition: width 0.7s;
+  -moz-transition: width 0.7s;
+  -ms-transition: width 0.7s;
+  -o-transition: width 0.7s;
+}
+.products-menu__container {
+  padding: 31px 53px 45px 38px;
+}
+
+.products-menu--section {
+  background: url(./../../img/women.png) center center/cover no-repeat;
+  position: relative;
+  color: #fff;
+  display: block;
+}
+
 .player {
   height: 100vh;
   width: 100vw;
