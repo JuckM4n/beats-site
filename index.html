@@ -506,6 +506,29 @@
           </div>
         </div>
       </section>
+      <section class="player player--section active">
+        <div class="player__container">
+          <h2 class="section__title">как мы работаем</h2>
+          <div class="player__wrapper">
+            <video id="player" poster="/img/video-preview.png">
+              <source src="video.mp4" type="video/mp4">
+            </video>
+            <img src="/img/play.png" alt="Icon" class="play player__play">
+          </div>
+          <div class="player__toolbar">
+            <div class="duration">
+              <img src="/img/play.png" alt="Icon" class="duration__icon play">
+              <input type="range" class="duration__length" id="durationLevel" min="0">
+            </div>
+            <div class="sound">
+              <img src="/img/sound-icon.png" alt="Icon" class="sound__img" id="micLevel">
+              <div class="sound__volume">
+                <input type="range" class="duration__length duration__length--other" id="volumeLevel" min="0" max="10">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section class="section order--section section--font--color--white">
         <div class="container">
           <h2 class="section__title">Закажите доставку</h2>
@@ -708,6 +731,8 @@
   <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
   <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script src="./js/player.js"></script>
   <script src="./js/acco.js"></script>
   <script src="./js/burger.js"></script>
   <script src="./js/modal.js"></script>

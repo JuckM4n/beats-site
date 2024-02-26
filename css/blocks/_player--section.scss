@@ -1,0 +1,11 @@
+.player--section {
+  position: relative;
+  background-color: #F5F5F5;
+
+  &::before {
+    position: absolute;
+    bottom  : -32px;
+    right    : 8.6%;
+    content : url(./../img/polygon2.svg);
+  }
+}
