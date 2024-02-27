@@ -49,18 +49,18 @@
 
       &::before,
       &::after {
-        content           : "";
-        display           : block;
-        position          : absolute;
-        right             : 0;
-        top               : 50%;
-        width             : 0;
-        height            : 0;
-        -webkit-transform : translateY(-50%);
-        -ms-transform     : translateY(-50%);
-        -o-transform      : translateY(-50%);
-        transform         : translateY(-50%);
-        -moz-transform    : translateY(-50%);
+        content          : "";
+        display          : block;
+        position         : absolute;
+        right            : 0;
+        top              : 50%;
+        width            : 0;
+        height           : 0;
+        -webkit-transform: translateY(-50%);
+        -ms-transform    : translateY(-50%);
+        -o-transform     : translateY(-50%);
+        transform        : translateY(-50%);
+        -moz-transform   : translateY(-50%);
       }
 
       &::after {
@@ -70,6 +70,7 @@
   }
 
   &__content {
+    position          : absolute;
     overflow          : hidden;
     transition        : height .3s;
     -webkit-transition: height .3s;

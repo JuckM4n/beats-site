@@ -110,7 +110,7 @@ task('server', () => {
   });
 });
 task("watch", () => {
-  watch(`${SRC_PATH}/styles/**/*.scss`, series("styles"));
+  watch(`${SRC_PATH}/css/**/*.scss`, series("styles"));
   watch(`${SRC_PATH}/*.html`, series("copy:html",));
   watch(`${SRC_PATH}/js/*.js`, series("scripts"));
   watch(`${SRC_PATH}/img/*.svg`, series("icons"));
