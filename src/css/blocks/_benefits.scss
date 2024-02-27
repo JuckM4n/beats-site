@@ -25,7 +25,7 @@
   }
 
   &::before {
-    content: url("./../img/about-shape.svg");
+    content: url(./img/about-shape.svg);
     position: absolute;
     top: rem(30px);
     right: 0;
