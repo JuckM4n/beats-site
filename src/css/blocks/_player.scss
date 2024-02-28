@@ -1,10 +1,7 @@
 .player {
-  height: 100vh !important;
-  width : 100vw;
-
-  display        : flex !important;
-  justify-content: center !important;
-  flex-direction : initial !important;
+  display        : flex;
+  justify-content: center;
+  flex-direction: initial !important;
 }
 
 .player__container {
@@ -14,6 +11,10 @@
   align-items    : center;
   justify-content: center;
   flex-direction : column;
+
+  @include tablets {
+    width: 85%;
+  }
 }
 
 .player__wrapper {
