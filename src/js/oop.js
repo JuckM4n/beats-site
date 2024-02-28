@@ -99,6 +99,7 @@ $(window).on("keydown", e => {
 
   const tagName = e.target.tagName.toLowerCase();
   const userTypingInInputs = tagName === "input" || tagName === "textarea";
+  const scroller = viewportsSroller();
 
   if (userTypingInInputs) return;
   switch (e.keyCode) {

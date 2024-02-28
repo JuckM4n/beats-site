@@ -1,10 +1,10 @@
 .player {
-  height: 100vh;
+  height: 100vh !important;
   width : 100vw;
 
-  display        : flex;
-  justify-content: center;
-  flex-direction: initial;
+  display        : flex !important;
+  justify-content: center !important;
+  flex-direction : initial !important;
 }
 
 .player__container {

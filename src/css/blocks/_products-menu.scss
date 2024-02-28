@@ -1,10 +1,10 @@
 .products-menu {
 
   &-section__title {
-    color       : $white;
+    color       : $white !important;
     padding-top : 115px;
     padding-left: 84px;
-    text-align  : left;
+    text-align  : left !important;
   }
 
   &__list {
@@ -24,6 +24,10 @@
     position: relative;
     width   : 102px;
     height  : 100vh;
+
+    @include tablets {
+      width: 61px;
+    }
 
     &--gray {
       background: #999999;
