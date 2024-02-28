@@ -85,13 +85,22 @@ const viewportsSroller = () => {
 $(window).on("wheel", e => {
   const deltaY = e.originalEvent.deltaY;
   const scroller = viewportsSroller();
+  const activeSection = sections.filter(".active");
 
   if (deltaY > 0) {
-    scroller.next();
+    if (activeSection.hasClass("map--section")) {
+      e.preventDefault();
+    } else {
+      scroller.next();
+    }
   }
 
   if (deltaY < 0) {
-    scroller.prev();
+    if (activeSection.hasClass("map--section")) {
+      e.preventDefault();
+    } else {
+      scroller.prev();
+    }
   }
 });
 
@@ -123,6 +132,7 @@ $("[data-scroll-to").click(e => {
 
   performTransition(reqSection.index());
 });
+
 if (isMobile) {
   //https://github.com/mattbryson/TouchSwipe-Jquery-Plugin
   $("body").swipe({
