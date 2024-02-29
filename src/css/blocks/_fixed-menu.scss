@@ -10,11 +10,25 @@
 }
 
 .fixed-menu--black {
-  .fixed-menu__item {  
+  .fixed-menu__item {
+    .fixed-menu__link {
+      &::before {
+        background: $black;
+      }
+
+      &:hover {
+        border-color: $black;
+      }
+    }
+
     &--active {
       .fixed-menu__link {
         border-color: $black;
-  
+
+        &:hover {
+          border-color: $black;
+        }
+
         &::before {
           background: $black;
         }
@@ -48,6 +62,14 @@
   border               : rem(1px) solid transparent;
   display              : block;
   position             : relative;
+
+  &:hover {
+    border-color: $red;
+
+    &::before {
+      background: $red;
+    }
+  }
 
   &::before {
     content              : "";
